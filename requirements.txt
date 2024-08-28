@@ -1,0 +1,20 @@
+numpy == 1.22.0
+opencv-python
+cmake==3.25.2
+dlib==19.24.2
+tk
+mediapipe
+openai
+langchain
+chromadb
+tiktoken
+docx2txt
+pypdf
+streamlit
+langchain_openai
+langchain-community
+#Middleware
+flask
+flask-socketio
+eventlet
+# dlib-binary
