@@ -1,0 +1,32 @@
+#calibration {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+  }
+  
+  .Calibration {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.2;
+    cursor: pointer;
+  }
+  
+  .Calibration.hidden {
+    display: none;
+  }
+  
+  #Pt1 { top: 20px; left: 20px; }
+  #Pt2 { top: 20px; left: 37%; }
+  #Pt3 { top: 20px; right: 27%; }
+  #Pt4 { top: 50%; left: 20px; }
+  #Pt5 { top: 50%; left: 37%; }
+  #Pt6 { top: 50%; right: 27%; }
+  #Pt7 { bottom: 20px; left: 20px; }
+  #Pt8 { bottom: 20px; left: 37%; }
+  #Pt9 { bottom: 20px; right: 27%; }
